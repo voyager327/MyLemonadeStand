@@ -15,7 +15,7 @@ namespace Lemonade_Stand
         public int amountOfCupsOfLemonadePerPitcher;
         public double priceOfLemonadePerCup;
         public int numberOfCupPersale; 
-        public Pitcher()
+        public Pitcher() 
         {
             // member constructors - list of recipes with estimated amount on each items. 
             lemonsPerPitcher = 5;
@@ -27,7 +27,7 @@ namespace Lemonade_Stand
 
         }
           
-           // methods
+           // methods 
         
     }
 }

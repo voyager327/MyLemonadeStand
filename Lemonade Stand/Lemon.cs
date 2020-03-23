@@ -14,6 +14,7 @@ namespace Lemonade_Stand
         public Lemon()
         {
             name = "lemon";
+
         }
 
         // member methods (CAN DO)

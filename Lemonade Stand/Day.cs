@@ -9,7 +9,17 @@ namespace Lemonade_Stand
     public class Day
     {
         // member variables 
+        // weather and list of customers correlates with daily activities
         public Random random;
+        public Weather weather;
+        public int numberOfCustomersPerDay; 
+        public Day()
+        {
+            // constructor - these three variables affects the 
+
+
+            
+        }
 
 
         // member constructors 

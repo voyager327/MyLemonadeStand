@@ -14,6 +14,7 @@ namespace Lemonade_Stand
         public Cup()
         {
             name = "cup";
+            pricePerCup = 0.25;
         }
 
         // member methods (CAN DO)

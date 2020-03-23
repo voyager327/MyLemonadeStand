@@ -9,11 +9,14 @@ namespace Lemonade_Stand
     class Customer
     {
         // member variables 
+        public Customer customer;
+        public NumberOfCustomers NumberOfCustomers;
 
-        // member constructors
 
         public Customer()
         {
+            customer = new Customer();
+
 
         }
 
