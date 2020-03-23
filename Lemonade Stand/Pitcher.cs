@@ -6,14 +6,28 @@ using System.Threading.Tasks;
 
 namespace Lemonade_Stand
 {
-    class Pitcher 
+    public class Pitcher 
     {
-        // member variables 
-
-        // member constructor
+        // member variables - contains recipe in the pitcher per sale
+        public int lemonsPerPitcher;
+        public int amountOfSugarCupsPerPitcher;
+        public int amountOfIceCubesPerCup;
+        public int amountOfCupsOfLemonadePerPitcher;
+        public double priceOfLemonadePerCup;
+        public int numberOfCupPersale; 
         public Pitcher()
         {
-           // name = "pitcher";
+            // member constructors - list of recipes with estimated amount on each items. 
+            lemonsPerPitcher = 5;
+            amountOfSugarCupsPerPitcher = 5;
+            amountOfIceCubesPerCup = 5;
+            amountOfCupsOfLemonadePerPitcher = 8;
+            priceOfLemonadePerCup = 0.25;
+            numberOfCupPersale = 1;
+
         }
+          
+           // methods
+        
     }
 }

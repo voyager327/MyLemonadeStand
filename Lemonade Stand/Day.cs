@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Lemonade_Stand
 {
-    class Day
+    public class Day
     {
         // member variables 
-        public Day[] days;
-        // constructors 
+        public Random random;
 
-        public Day()
+
+        // member constructors 
+
         {
             days = new Day[6];
 
