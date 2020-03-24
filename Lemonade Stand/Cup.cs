@@ -9,14 +9,15 @@ namespace Lemonade_Stand
     class Cup : Item
     {
         // member variables (HAS A)
-
+        private double pricePerCup;
         // constructor (SPAWNER)
         public Cup()
         {
             name = "cup";
-            pricePerCup = 0.25;
+            pricePerCup = 0.05;
         }
 
         // member methods (CAN DO)
+        public RunGame();
     }   
 }

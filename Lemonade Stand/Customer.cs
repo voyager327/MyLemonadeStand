@@ -10,7 +10,7 @@ namespace Lemonade_Stand
     {
         // member variables 
         public Customer customer;
-        public NumberOfCustomers NumberOfCustomers;
+        public 
 
 
         public Customer()

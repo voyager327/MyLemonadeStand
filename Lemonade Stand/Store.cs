@@ -21,7 +21,7 @@ namespace Lemonade_Stand
             pricePerLemon = .5;
             pricePerSugarCube = .1;
             pricePerIceCube = .01;
-            pricePerCup = .25;
+            pricePerCup = .05;
         }
 
         // member methods (CAN DO)
@@ -80,10 +80,10 @@ namespace Lemonade_Stand
             wallet.PayMoneyForItems(transactionAmount);
 ;       }
 
-        public void SoldCups(Player player)
+        public void SoldLemonadeCups(Player player)
         {
             int cupsSold = UserInterface.GetNumberOfItems("cupsSold");
-            double transactionAmount = CalculateTransactionAmount(numberOfCupsSold, pricePerCupSold);
+            double transactionAmount = CalculateTransactionAmount(CupsSold, pricePerCupSold);
             if(player.wallet.Money >= transactionAmount)
             {
                 PerformTransaction(player.wallet, transactionAmount);
