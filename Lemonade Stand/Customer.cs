@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace Lemonade_Stand
 {
-    class Customer
-    {
+     public class Customer
+     {
         // member variables 
-        public Customer customer;
-        public 
+        public bool customerPurchaselemon;
+        public int numberOfCupPurchase;        
+        
+        // constructor
+        public Customer(bool purchaseLemonade, int amoiuntPurchase)
+        
+        // constructor 
 
-
-        public Customer()
+         public Customer()
         {
             customer = new Customer();
 
 
         }
 
-    }
+     }
 }

@@ -6,24 +6,32 @@ using System.Threading.Tasks;
 
 namespace Lemonade_Stand
 {
-    class Weather
+    public class Weather
     {
         // member variables - weather condition 
-        public int WeatherCondition()
-        { 
-            // member constructor- setting weather condition and temperature 
-            int weatherCondition = new Random().Next(0, 4);
-            return weatherCondition;
-        }
-        public string ConvertWeatherCondition(int weatherTemp)
+        public int CurrentTemp()
         {
-            string weatherCondition = "";
-            switch (weatherTemp)
-            {
-
-            }
+            int temperature;
+            temperature = new Random().Next(55, 95);
+            return temperature;
         }
-   
-    }
+        
+        public void WeatherForecast()
+        {
+            Console.WriteLine("WeatherForecast for the Day");
+            {
+                var random = new Random();
+                {
+                    var list = new List<string> { "Rainy, Sunny, Cloudy" };
+                    int index = random.Next(list.Count);
+                    Console.WriteLine("Weather: " + list[index]);
 
-}
+                }
+             
+            }
+    
+        }
+     
+     }
+ }          
+              

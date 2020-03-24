@@ -10,25 +10,26 @@ namespace Lemonade_Stand
     {
         // member variables 
         // weather and list of customers correlates with daily activities
+        // daily weather condition affects total gain/loss result
         public Random random;
         public Weather weather;
-        public int numberOfCustomersPerDay;
+        public int numberOfCupPurchase;
         public List<Customer> customer;
+        
+        // constructor
+
         public Day()
         {
             random = new Random();
-            customer = new List<Customer>();
             weather = new Weather();
-                                                      
+            customer = new List<Customer>();
+            numberOfCupPurchase = new numberOfCupPurchase;                                       
         }
-
-
-        // member constructors 
-
-        
+        // methods
+        public void DailySales()
+            int numberOfCustomers = 
 
         
-        // methods 
     }
 
 }

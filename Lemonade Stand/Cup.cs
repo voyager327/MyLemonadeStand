@@ -18,6 +18,6 @@ namespace Lemonade_Stand
         }
 
         // member methods (CAN DO)
-        public RunGame();
+        
     }   
 }
