@@ -18,16 +18,16 @@ namespace Lemonade_Stand
         
         // constructor
 
-        public Day()
-        {
-            random = new Random();
-            weather = new Weather();
-            customer = new List<Customer>();
-            numberOfCupPurchase = new numberOfCupPurchase;                                       
-        }
-        // methods
-        public void DailySales()
-            int numberOfCustomers = 
+        //public Day()
+        ////{
+        //    random = new Random();
+        //    weather = new Weather();
+        //    customer = new List<Customer>();
+        //    numberOfCupPurchase = new numberOfCupPurchase;                                       
+        //}
+        //// methods
+        //public void DailySales()
+        //    int numberOfCustomers = 
 
         
     }

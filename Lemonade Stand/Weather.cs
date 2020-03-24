@@ -25,7 +25,9 @@ namespace Lemonade_Stand
                     var list = new List<string> { "Rainy, Sunny, Cloudy" };
                     int index = random.Next(list.Count);
                     Console.WriteLine("Weather: " + list[index]);
-
+                    Console.WriteLine("Display Results");
+                    Console.ReadLine();
+                    
                 }
              
             }

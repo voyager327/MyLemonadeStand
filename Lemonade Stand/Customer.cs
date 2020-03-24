@@ -12,17 +12,17 @@ namespace Lemonade_Stand
         public bool customerPurchaselemon;
         public int numberOfCupPurchase;        
         
-        // constructor
-        public Customer(bool purchaseLemonade, int amoiuntPurchase)
+        //// constructor
+        //public Customer(bool purchaseLemonade, int amoiuntPurchase)
         
-        // constructor 
+        //// constructor 
 
-         public Customer()
-        {
-            customer = new Customer();
+        // public Customer()
+        //{
+        //    customer = new Customer();
 
 
-        }
+        //}
 
      }
 }

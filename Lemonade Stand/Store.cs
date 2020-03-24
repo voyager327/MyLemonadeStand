@@ -80,15 +80,15 @@ namespace Lemonade_Stand
             wallet.PayMoneyForItems(transactionAmount);
 ;       }
 
-        public void SoldLemonadeCups(Player player)
-        {
-            int cupsSold = UserInterface.GetNumberOfItems("cupsSold");
-            double transactionAmount = CalculateTransactionAmount(CupsSold, pricePerCupSold);
-            if(player.wallet.Money >= transactionAmount)
-            {
-                PerformTransaction(player.wallet, transactionAmount);
-                player.inventory.Add
-            }
+        //public void SoldLemonadeCups(Player player)
+        //{
+        //    int cupsSold = UserInterface.GetNumberOfItems("cupsSold");
+        //    double transactionAmount = CalculateTransactionAmount(CupsSold, pricePerCupSold);
+        //    if(player.wallet.Money >= transactionAmount)
+        //    {
+        //        PerformTransaction(player.wallet, transactionAmount);
+        //        player.inventory.Add
+        //    }
 
         }
     }    
